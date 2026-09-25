@@ -30,7 +30,7 @@ jobs:
           lfs: false
 
       - name: Список весов
-        shell: bash
+        shell: '"C:\Program Files\Git\bin\bash.exe" --noprofile --norc -e -o pipefail {0}'
         run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
 
       - name: Веса из кэша
