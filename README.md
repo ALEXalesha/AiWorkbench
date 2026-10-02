@@ -6,10 +6,10 @@
 
 **Local AI workbench for Windows: chat through LM Studio, PyTorch models trained from scratch (translator, NER, sentiment, spam) and SDXL-Turbo drawing.**
 
-[Download for Windows](https://github.com/ALEXalesha/Neural-Network/releases/latest) &nbsp;·&nbsp; [Русская версия этого файла](README.ru.md)
+[Download for Windows](https://github.com/ALEXalesha/AiWorkbench/releases/latest) &nbsp;·&nbsp; [Русская версия этого файла](README.ru.md)
 
-[![CI](https://github.com/ALEXalesha/Neural-Network/actions/workflows/ci.yml/badge.svg)](https://github.com/ALEXalesha/Neural-Network/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/ALEXalesha/Neural-Network?color=7c5cff)](https://github.com/ALEXalesha/Neural-Network/releases/latest)
+[![CI](https://github.com/ALEXalesha/AiWorkbench/actions/workflows/ci.yml/badge.svg)](https://github.com/ALEXalesha/AiWorkbench/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/ALEXalesha/AiWorkbench?color=7c5cff)](https://github.com/ALEXalesha/AiWorkbench/releases/latest)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 <img src="docs/screenshots/hero.png" width="900" alt="AlexGPT home screen">
@@ -29,7 +29,7 @@ Nothing leaves the machine. The own models ship inside the installer; the large 
 
 ## Download
 
-The [releases page](https://github.com/ALEXalesha/Neural-Network/releases/latest) has two builds:
+The [releases page](https://github.com/ALEXalesha/AiWorkbench/releases/latest) has two builds:
 
 | Build | What it is | Size |
 | --- | --- | --- |
@@ -105,8 +105,8 @@ Five themes (dark, midnight, graphite, light, sepia) and six accent colours in *
 
 ```bash
 git lfs install
-git clone https://github.com/ALEXalesha/Neural-Network.git
-cd Neural-Network
+git clone https://github.com/ALEXalesha/AiWorkbench.git
+cd AiWorkbench
 python -m venv .venv
 .venv\Scripts\pip install -r requirements-dev.txt
 .venv\Scripts\python alexgpt\main.py

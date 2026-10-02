@@ -6,10 +6,10 @@
 
 **Локальный ИИ-комбайн для Windows: чат через LM Studio, свои нейросети на PyTorch, обученные с нуля (переводчик, NER, тональность, спам), и рисование на SDXL-Turbo.**
 
-[Скачать для Windows](https://github.com/ALEXalesha/Neural-Network/releases/latest) &nbsp;·&nbsp; [English](README.md)
+[Скачать для Windows](https://github.com/ALEXalesha/AiWorkbench/releases/latest) &nbsp;·&nbsp; [English](README.md)
 
-[![CI](https://github.com/ALEXalesha/Neural-Network/actions/workflows/ci.yml/badge.svg)](https://github.com/ALEXalesha/Neural-Network/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/ALEXalesha/Neural-Network?color=7c5cff)](https://github.com/ALEXalesha/Neural-Network/releases/latest)
+[![CI](https://github.com/ALEXalesha/AiWorkbench/actions/workflows/ci.yml/badge.svg)](https://github.com/ALEXalesha/AiWorkbench/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/ALEXalesha/AiWorkbench?color=7c5cff)](https://github.com/ALEXalesha/AiWorkbench/releases/latest)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 <img src="docs/screenshots/hero.png" width="900" alt="Главный экран AlexGPT">
@@ -23,7 +23,7 @@
 
 ## Скачать
 
-Готовые сборки лежат в [релизах](https://github.com/ALEXalesha/Neural-Network/releases/latest):
+Готовые сборки лежат в [релизах](https://github.com/ALEXalesha/AiWorkbench/releases/latest):
 
 - `AlexGPT-<версия>-setup.exe` (433 МБ) - установщик. Ставится без прав администратора в `%LOCALAPPDATA%\Programs\AlexGPT`, создаёт ярлыки.
 - `AlexGPT-<версия>-portable.zip` (540 МБ) - распаковать куда угодно и запустить `AlexGPT.exe`. Настройки и чаты хранятся в папке `data` рядом с exe.
@@ -40,7 +40,7 @@ Python на компьютере не нужен. Свои нейросети р
 | Тональность отзыва | BiLSTM, 45 тыс. отзывов RuReviews | 75% на 15 тыс. тестовых отзывов (3 класса) |
 | Спам-детектор | BiLSTM, SMS Spam Collection на русском и английском | 97-98% на тесте |
 | Имена, места, даты (NER) | BiLSTM + CNN по буквам, WikiANN ru/en + шаблоны с датами | F1 0,81 (рус.), 0,74 (англ.) |
-| Угадай рисунок | CNN на 160 классов (цифры, буквы, фигуры, предметы); читает и несколько символов подряд - числа и слова | Из проекта IntelegienceDrawer. Раздельно написанные числа («10», «101», «70») и заглавные («ABC») - уверенно; строчные буквы слабее: саму «a» сеть путает с «d» и «2» |
+| Угадай рисунок | CNN на 160 классов (цифры, буквы, фигуры, предметы); читает и несколько символов подряд - числа и слова | Из проекта IntelligenceDrawer. Раздельно написанные числа («10», «101», «70») и заглавные («ABC») - уверенно; строчные буквы слабее: саму «a» сеть путает с «d» и «2» |
 | Распознавание цифр | ResNet, MNIST | ~99% |
 | Цифры (GAN), генерация текста, прогнозы, кластеры, рекомендации, аномалии, брак | Небольшие учебные модели | Учебные данные |
 
