@@ -16,6 +16,9 @@
 
 </div>
 
+[![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=claude&logoColor=white)](https://claude.com/claude-code)
+Code, tests and docs are written by Claude (Anthropic) in Claude Code. Ideas, testing and decisions - Alexey.
+
 > **The interface is in Russian.** Most of the models are Russian-first too: the sentiment model was trained on Russian product reviews, NER and spam work on both languages, the translator goes both ways between English and Russian.
 
 ## What this is

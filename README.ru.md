@@ -16,6 +16,9 @@
 
 </div>
 
+[![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=claude&logoColor=white)](https://claude.com/claude-code)
+Код, тесты и документация этого проекта написаны Claude (Anthropic) в Claude Code. Идеи, проверка и решения - Алексей.
+
 Учебный проект по нейросетям на PyTorch. Внутри два слоя:
 
 - `alexgpt/` - десктоп-приложение AlexGPT: 16 своих нейросетей (перевод, тональность, спам, имена и даты в тексте, угадывание рисунков, цифры, прогнозы и т.д.) плюс чат, решатель тестов и "Команда кодеров" через LM Studio.
