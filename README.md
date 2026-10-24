@@ -8,16 +8,13 @@
 
 [Download for Windows](https://github.com/ALEXalesha/AiWorkbench/releases/latest) &nbsp;·&nbsp; [Русская версия этого файла](README.ru.md)
 
-[![CI](https://github.com/ALEXalesha/AiWorkbench/actions/workflows/ci.yml/badge.svg)](https://github.com/ALEXalesha/AiWorkbench/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/ALEXalesha/AiWorkbench?color=7c5cff)](https://github.com/ALEXalesha/AiWorkbench/releases/latest)
-[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Status](https://img.shields.io/badge/status-stable-brightgreen)](#) [![Release](https://img.shields.io/github/v/release/ALEXalesha/AiWorkbench)](https://github.com/ALEXalesha/AiWorkbench/releases/latest) [![CI](https://github.com/ALEXalesha/AiWorkbench/actions/workflows/ci.yml/badge.svg)](https://github.com/ALEXalesha/AiWorkbench/actions/workflows/ci.yml) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?logo=qt&logoColor=white)](https://www.riverbankcomputing.com/software/pyqt/) [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/) [![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)](https://flask.palletsprojects.com/) [![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=claude&logoColor=white)](https://claude.com/claude-code)
+
+Code, tests and docs are written by Claude (Anthropic) in Claude Code. Ideas, testing and decisions - Alexey.
 
 <img src="docs/screenshots/hero.png" width="900" alt="AlexGPT home screen">
 
 </div>
-
-[![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=claude&logoColor=white)](https://claude.com/claude-code)
-Code, tests and docs are written by Claude (Anthropic) in Claude Code. Ideas, testing and decisions - Alexey.
 
 > **The interface is in Russian.** Most of the models are Russian-first too: the sentiment model was trained on Russian product reviews, NER and spam work on both languages, the translator goes both ways between English and Russian.
 
